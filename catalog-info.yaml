@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'bs-jenkins'
+  description: 'Backstage jenkins integration test'
+  annotations:
+    jenkins.io/job-full-name: 'myjob'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: aravind
